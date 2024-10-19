@@ -1,0 +1,10 @@
+.integrants{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.integrant{
+    margin: auto;
+    width: 33.33%;
+}
