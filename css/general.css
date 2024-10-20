@@ -6,7 +6,7 @@ body, html {
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
   }
 
@@ -15,7 +15,10 @@ body, html {
 }
 
 .topNav{
-    background-color: #333;
+    background-color: #a5b68d;
+    border-style: solid;
+    border-color: #2b3516;
+    border-width: medium;
     overflow: hidden;
 }
 
@@ -23,11 +26,11 @@ body, html {
 .topNav a{
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #2b3516;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .topNav .icon{
@@ -52,4 +55,52 @@ footer{
   position: block;
   bottom: 0;
   text-align: center;
+  color: #fcfaee;
+  background-color: #54473f;
+}
+
+.treeInfo{
+  height: 800px;
+  width: 600px;
+  border-radius: 3%;
+  float: left;
+  text-align: center;
+  color:#2b3516;
+  background-color: #a5b68d;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  padding:50px;
+}
+
+.treeImg img{
+  float: right;
+  margin-top: 25px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.deforestationInfo{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  padding: 50px;
+  border-radius: 3%;
+  text-align: left;
+  color:#2b3516;
+  background-color: #a5b68d;
+}
+
+.deforestationImg img {
+  float: left; 
+  margin-left: 100px;
+  margin-right: 25px; 
+  margin-bottom: 0px; 
+  overflow: hidden;
+}
+
+img{
+  border-radius: 3%;
 }
